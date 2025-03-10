@@ -1,0 +1,30 @@
+Here are some questions that can be asked in an interview about this topic:
+
+What is the primary distinction between immutable and mutable collections in Kotlin?
+Immutable collections, once created, cannot be modified, while mutable collections allow dynamic changes.
+
+
+How does lazy evaluation set Sequences apart from other collections in Kotlin?
+Sequences are lazily evaluated, meaning elements are computed on-demand, enhancing efficiency for large datasets.
+
+
+What is the key feature of a Set in Kotlin?
+Sets in Kotlin are collections of unique elements, ensuring that each element is distinct.
+
+
+How does a Sequence differ from other collections when processing large datasets?
+Sequences offer efficient processing by lazily computing elements on-demand, making them well-suited for
+ large datasets.
+
+
+Can a Sequence be mutable in Kotlin?
+No, sequences are inherently immutable in Kotlin, but you can apply sequence operations to mutable collections.
+
+
+Name a scenario where using Sequences in Kotlin is advantageous.
+Sequences are beneficial when dealing with large datasets or chaining multiple operations to avoid
+unnecessary computations.
+
+
+What is the primary characteristic of Arrays in Kotlin?
+Arrays are fixed-size collections of elements of the same type, accessed by their index.
